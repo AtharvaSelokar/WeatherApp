@@ -55,7 +55,7 @@ String getDay(final day){
                   height: 30,
                   width: 30,
                   child: Image.asset(
-                      "assets/weather/04d.png"
+                      "assets/weather/${weatherDataDaily.daily[index].weather![0].icon}.png"
                       // "/assets/weather/${weatherDataDaily.daily[index].weather![0].icon}.png"
                      ),
                 ),
